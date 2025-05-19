@@ -1,9 +1,9 @@
 <?php
 // Conexión:
-$server = '127.0.0.1';
-$username = 'root';
-$password = '';
-$database = 'blog';
+$server = 'bjgxdw6eknypx7xpgifz-mysql.services.clever-cloud.com';
+$username = 'ux0v0ymrpggfhvxj';
+$password = '1tW0pGI6z4s7CBQ1eaiw';
+$database = 'bjgxdw6eknypx7xpgifz';
 $db = mysqli_connect($server, $username, $password, $database);
 
 mysqli_query($db, "SET NAMES 'utf8'");
