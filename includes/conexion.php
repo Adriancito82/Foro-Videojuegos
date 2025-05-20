@@ -1,4 +1,8 @@
 <?php
+// Iniciar la sesión:
+if (!isset($_SESSION)) {
+   session_start();
+}
 // Conexión:
 $server = 'bjgxdw6eknypx7xpgifz-mysql.services.clever-cloud.com';
 $username = 'ux0v0ymrpggfhvxj';
@@ -7,10 +11,4 @@ $database = 'bjgxdw6eknypx7xpgifz';
 $db = mysqli_connect($server, $username, $password, $database);
 
 mysqli_query($db, "SET NAMES 'utf8'");
-
-// Iniciar la sesión:
-if (!isset($_SESSION)) {
-   session_start();
-}
-
 ?>
