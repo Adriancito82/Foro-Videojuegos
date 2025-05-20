@@ -3,7 +3,7 @@
    <div class="clearfix"></div>
 </div>
    <footer id="pie">
-            <p>Desarrollado por Adrián Santana &copy; 2023</p>
+            <p>Desarrollado por Adrián Santana &copy; <?= date('Y') ?></p>
         </footer>
     </main>
 </body>
