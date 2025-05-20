@@ -1,4 +1,5 @@
 <?php
+session_start();
 // Conexión:
 $server = 'bjgxdw6eknypx7xpgifz-mysql.services.clever-cloud.com';
 $username = 'ux0v0ymrpggfhvxj';
