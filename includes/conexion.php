@@ -1,4 +1,5 @@
-<?php// Conexión:
+<?php
+// Conexión:
 $server = 'bjgxdw6eknypx7xpgifz-mysql.services.clever-cloud.com';
 $username = 'ux0v0ymrpggfhvxj';
 $password = '1tW0pGI6z4s7CBQ1eaiw';
