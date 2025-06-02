@@ -1,5 +1,7 @@
 <?php require_once 'includes/cabecera.php'; ?>
 
+<?php require_once 'includes/lateral.php'; ?>
+
 <div id="principal">
     <h1>Adrián Santana Suárez</h1>
     <p>Puedes Contactar conmigo en: adriansantanadev@gmail.com</p>
